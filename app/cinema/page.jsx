@@ -67,8 +67,8 @@ export default function Page() {
 					<div className='text-5xl font-bold mb-8'>
 						{product.name}
 						<p className='text-lg font-thin md:text-xl mt-6'>
-							{product.grade} , {product.year} , {product.category} ,{' '}
-							{product.country} , {product.older}
+							{product.grade} · {product.year} · {product.category}·{' '}
+							{product.country} · {product.older}
 						</p>
 					</div>
 					<p className='md:pr-[600px] pr-40 pb-5 font-thin md:text-lg text-sm'>
