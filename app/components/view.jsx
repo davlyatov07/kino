@@ -1,19 +1,13 @@
 'use client'
 import Link from 'next/link'
 import Image from 'next/image'
-import { useCart } from '../hooks/useCart'
 import { useRef } from 'react'
 import { kino } from '../data/kino'
-import HeartButton from './HeartButton'
 import popcorn from '../assets/images/popcorn.png'
-import ne from '../assets/images/ne.png'
-import sta from '../assets/images/sta.png'
-import dj from '../assets/images/dj.png'
 import { icons } from '../util/icons'
 import ContactSection from './contacts'
 
 export default function ViewSection() {
-	const { addToCart, removeFromCart, cart } = useCart()
 	const scrollContainerRef = useRef(null) // Ссылка на контейнер с элементами
 
 	// Функция для прокрутки влево/вправо
