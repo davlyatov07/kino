@@ -3,7 +3,7 @@ import './globals.css'
 import { CartProvider } from './hooks/useCart'
 import Link from 'next/link'
 import { icons } from './util/icons'
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 
 export default function RootLayout({ children }) {
 	const [selected, setSelected] = useState('#home')
@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body className=' overflow-x-hidden scrollbar-hide'>
-				<CartProvider>{children}</CartProvider>
+				<CartProvider>
+					<Suspense fallback={'...'}>{children}</Suspense>
+				</CartProvider>
 				<div className='border border-slate-400 text-[10px] text-white bg-black rounded-3xl md:w-72 w-64 h-16 md:h-20 flex justify-evenly items-center fixed left-24 z-50 md:left-[40%] bottom-5'>
 					{[
 						{ href: '/#home', label: 'Главная', icon: icons.home },
