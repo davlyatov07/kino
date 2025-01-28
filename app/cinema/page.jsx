@@ -13,7 +13,7 @@ import { kino } from '../data/kino'
 import Link from 'next/link'
 export default function Page() {
 	const { addToCart, removeFromCart, cart } = useCart()
-	const searchParams = useSearchParams()
+	const { searchParams } = useSearchParams()
 	const id = searchParams.get('id')
 	const [visibleContent, setVisibleContent] = useState('trailer') // Начальное состояние
 	const [selectedRating, setSelectedRating] = useState(null) // Для выбранной оценки
