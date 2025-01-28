@@ -61,8 +61,8 @@ export default function HomeSection() {
 					>
 						<h1 className='text-5xl font-bold'>{selectedMovie.name}</h1>
 						<p className='text-lg mt-4'>
-							{selectedMovie.grade} · {selectedMovie.year} ·{' '}
-							{selectedMovie.category} · {selectedMovie.country} ·{' '}
+							{selectedMovie.grade} , {selectedMovie.year} ,{' '}
+							{selectedMovie.category} , {selectedMovie.country} ,{' '}
 							{selectedMovie.older}
 						</p>
 					</motion.div>

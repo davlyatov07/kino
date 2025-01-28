@@ -53,8 +53,8 @@ export default function WatchLaterPage() {
 											{item.about || 'Описание отсутствует'}
 										</p>
 										<p className='pt-3 font-normal'>
-											{item.grade} · {item.year} · {item.category} ·{' '}
-											{item.country} · {item.older}
+											{item.grade}, {item.year}, {item.category}, {item.country}
+											, {item.older}
 										</p>
 										<div className='flex justify-between items-center mt-4'>
 											<span className='text-gray-400'></span>

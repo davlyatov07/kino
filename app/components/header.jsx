@@ -151,7 +151,7 @@ export default function HeaderComponent() {
 												<div className='text-white'>
 													<p className='font-semibold text-wrap'>{item.name}</p>
 													<p className='text-sm'>
-														{item.country} · {item.older} · {item.grade}
+														{item.country} , {item.older} , {item.grade}
 													</p>
 													<p className='font-thin'>{item.category}</p>
 												</div>
