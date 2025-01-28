@@ -98,7 +98,7 @@ export default function WatchLaterPage() {
 							<div className='bg-neutral-900 rounded-lg shadow-lg p-6 w-full max-w-md text-center'>
 								<h2 className='text-xl font-semibold mb-4'>Очистить список?</h2>
 								<p className='text-gray-400 mb-6'>
-									Вы уверены, что хотите очистить список "Смотреть позже"?
+									Вы уверены, что хотите очистить список Смотреть позже?
 								</p>
 								<div className='flex gap-48 '>
 									<button
