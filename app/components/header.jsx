@@ -55,7 +55,7 @@ export default function HeaderComponent() {
 			<section className='fixed bg-black/85 md:h-16 w-screen	 h-20 top-0 z-50 md:w-full flex justify-start md:pl-7 text-[#e0e1e3] items-center pt-2'>
 				<div className='flex justify-between items-center w-full'>
 					<div className='flex md:gap-[500px]'>
-						<div className='flex gap-2 items-center md:pl-3 md:pr-48  pl-5 pr-28'>
+						<div className='flex gap-2 items-center md:pl-3 md:pr-52  pl-5 pr-28'>
 							<svg
 								width='32'
 								height='50'
