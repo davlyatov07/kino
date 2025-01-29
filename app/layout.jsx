@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
 
 	return (
 		<html lang='en'>
-			<body className=' overflow-x-hidden scrollbar-hide'>
+			<body className=' overflow-x-hidden sscrollbar-hide'>
 				<CartProvider>
 					<Suspense fallback={'...'}>{children}</Suspense>
 				</CartProvider>
