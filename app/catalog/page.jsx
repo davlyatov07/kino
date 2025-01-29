@@ -35,7 +35,7 @@ export default function CatalogPages() {
 			<HomeSection />
 
 			<h1 className='text-5xl text-white font-semibold pt-20 pl-10'>Новые</h1>
-			<div className='relative flex justify-around px-10 pb-20 md:pt-5'>
+			<div className='relative flex justify-around md:px-10 px-5	 pb-20 md:pt-5'>
 				<div
 					ref={scrollContainerRef1} // Используем первую ссылку для этого контейнера
 					className='flex overflow-x-auto scrollbar-hide md:gap-10 gap-3 py-4   w-full'
@@ -87,10 +87,10 @@ export default function CatalogPages() {
 			</div>
 
 			<h1 className='text-5xl text-white font-semibold pl-10'>Боевик</h1>
-			<div className='relative flex justify-around md:pt-5 px-10'>
+			<div className='relative flex justify-around md:pt-5 md:px-10 px-5 '>
 				<div
 					ref={scrollContainerRef2} // Используем вторую ссылку для этого контейнера
-					className='flex overflow-x-auto scrollbar-hide md:gap-10 gap-3 py-4 md:px-10 px-5 w-full'
+					className='flex overflow-x-auto scrollbar-hide md:gap-10 gap-3 py-4  w-full'
 				>
 					<button
 						className='absolute left-0 top-52 transform -translate-y-1/2 bg-gradient-to-r from-black via-gray-900 to-transparent p-4 text-white rounded-full shadow-md z-10 hover:scale-110 transition-transform'

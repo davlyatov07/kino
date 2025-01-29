@@ -52,10 +52,10 @@ export default function HeaderComponent() {
 
 	return (
 		<>
-			<section className='fixed bg-black/85 md:h-16 w-full	 h-20 top-0 z-50 md:w-full flex justify-start md:pl-7 text-[#e0e1e3] items-center pt-2'>
+			<section className='fixed bg-black/85 md:h-16 w-screen	 h-20 top-0 z-50 md:w-full flex justify-start md:pl-7 text-[#e0e1e3] items-center pt-2'>
 				<div className='flex justify-between items-center w-full'>
 					<div className='flex md:gap-[500px]'>
-						<div className='flex gap-2 items-center md:pl-3 md:pr-48 pl-5 pr-24'>
+						<div className='flex gap-2 items-center md:pl-3 md:pr-48  pl-5 pr-28'>
 							<svg
 								width='32'
 								height='50'
@@ -70,7 +70,7 @@ export default function HeaderComponent() {
 								/>
 								<path d='M32 9V13.125L25 10.0352V5.0625L32 9Z' fill='white' />
 							</svg>
-							<p className='text-3xl font-serif font-bold'>DYNЁ</p>
+							<p className='md:text-3xl text-2xl font-serif font-bold'>DYNЁ</p>
 						</div>
 						<div className='flex items-center gap-4 md:pl-72 '>
 							<button
@@ -118,13 +118,13 @@ export default function HeaderComponent() {
 						</div>
 					</div>
 					{isSearchOpen && (
-						<div className='absolute md:right-80 right-28 flex items-center transition-all duration-300 ease-in-out'>
+						<div className='absolute md:right-[350px] right-28 flex items-center transition-all duration-300 ease-in-out'>
 							<input
 								type='search'
 								value={searchQuery}
 								onChange={handleSearchChange}
 								placeholder='Поиск...'
-								className='border border-r-0 rounded-r-none border-gray-700 rounded-full py-3 px-4 md:w-80 w-40 focus:outline-none focus:ring-2 focus:ring-black text-white bg-black'
+								className='border border-r-0 rounded-r-none border-gray-700 rounded-full py-3 px-4 md:w-80 w-32 focus:outline-none focus:ring-2 focus:ring-black text-white bg-black'
 							/>
 						</div>
 					)}

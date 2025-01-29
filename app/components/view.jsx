@@ -39,7 +39,7 @@ export default function ViewSection() {
 
 			<div
 				ref={scrollContainerRef}
-				className='pb-20 flex overflow-x-auto scrollbar-hide md:gap-10 gap-3 py-4 md:px-0 px-5 w-full relative'
+				className='pb-20 flex overflow-x-auto scrollbar-hide md:gap-10 gap-3 py-4 md:px-0 w-full relative'
 			>
 				{kino.slice(0, 11).map(product => {
 					return (
@@ -83,7 +83,7 @@ export default function ViewSection() {
 				&gt;
 			</button>
 
-			<div className='px-6'>
+			<div className=''>
 				<div className='flex md:flex-row flex-col border border-neutral-600 rounded-3xl justify-between '>
 					<div className='md:pl-10 pl-3 pt-16 text-sm'>
 						<h1 className='md:text-5xl text-3xl md:text-nowrap font-bold'>

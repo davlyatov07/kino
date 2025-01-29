@@ -6,11 +6,11 @@ export default function ContactSection() {
 			<div className='text-white flex md:flex-row flex-col px-14 justify-between items-center pb-5'>
 				<Link
 					href='/catalog'
-					className='inline-block bg-gradient-to-r from-neutral-500 to-neutral-700 bg-blue-600 text-white text-sm px-4 py-3	  rounded-lg shadow-md transform transition-all duration-300 hover:scale-95 hover:bg-blue-700'
+					className='inline-block bg-gradient-to-r from-neutral-500 to-neutral-700 bg-blue-600 text-white text-sm px-4 py-3 	  rounded-lg shadow-md transform transition-all duration-300 hover:scale-95 hover:bg-blue-700'
 				>
 					Написать в поддержку
 				</Link>
-				<div className='flex gap-2'>
+				<div className='flex gap-2 pt-3'>
 					<Link
 						href='/catalog'
 						className='	   shadow-md transform transition-all duration-300 hover:scale-95 '

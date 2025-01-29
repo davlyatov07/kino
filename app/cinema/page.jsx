@@ -58,7 +58,7 @@ export default function Page() {
 				<div className='md:h-[107vh] h-[115vh]'>
 					<Image
 						src={product.bigimg}
-						className='pt-40 object-cover h-full object-top'
+						className='pt- object-cover h-full object-top'
 						alt={product.name}
 					/>
 				</div>
