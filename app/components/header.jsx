@@ -52,10 +52,10 @@ export default function HeaderComponent() {
 
 	return (
 		<>
-			<section className='fixed bg-black/85 md:h-16 h-20 top-0 z-50 w-full flex justify-start md:pl-7 text-[#e0e1e3] items-center pt-2'>
+			<section className='fixed bg-black/85 md:h-16 w-full	 h-20 top-0 z-50 md:w-full flex justify-start md:pl-7 text-[#e0e1e3] items-center pt-2'>
 				<div className='flex justify-between items-center w-full'>
 					<div className='flex md:gap-[500px]'>
-						<div className='flex gap-2 items-center md:pl-3 md:pr-20 pl-5 pr-40'>
+						<div className='flex gap-2 items-center md:pl-3 md:pr-48 pl-5 pr-24'>
 							<svg
 								width='32'
 								height='50'

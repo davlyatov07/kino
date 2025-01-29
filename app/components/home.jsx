@@ -59,7 +59,9 @@ export default function HomeSection() {
 						exit={{ opacity: 0, y: 20 }}
 						transition={{ duration: 5 }}
 					>
-						<h1 className='text-5xl font-bold'>{selectedMovie.name}</h1>
+						<h1 className='md:text-5xl text-3xl font-bold'>
+							{selectedMovie.name}
+						</h1>
 						<p className='text-lg mt-4'>
 							{selectedMovie.grade} · {selectedMovie.year} ·{' '}
 							{selectedMovie.category} · {selectedMovie.country} ·{' '}
