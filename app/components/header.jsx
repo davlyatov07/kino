@@ -170,13 +170,13 @@ export default function HeaderComponent() {
 			{/* Модальное окно */}
 			{isModalOpen && (
 				<div className='fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50'>
-					<div className='bg-white w-96 p-6 rounded-lg shadow-lg'>
+					<div className='bg-black w-96 p-6 rounded-lg shadow-lg'>
 						<h2 className='text-2xl font-bold mb-4'>
 							Войти или зарегистрироваться
 						</h2>
 						<form>
 							<label className='block mb-2'>
-								<span className='text-gray-700'>Email</span>
+								<span className='text-white'>Email</span>
 								<input
 									type='email'
 									className='block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500'
@@ -184,7 +184,7 @@ export default function HeaderComponent() {
 								/>
 							</label>
 							<label className='block mb-4'>
-								<span className='text-gray-700'>Пароль</span>
+								<span className='text-white'>Пароль</span>
 								<input
 									type='password'
 									className='block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500'
@@ -200,7 +200,7 @@ export default function HeaderComponent() {
 								</button>
 								<button
 									onClick={closeModal}
-									className='text-gray-500 hover:text-gray-800'
+									className='text-white hover:text-gray-800'
 								>
 									Закрыть
 								</button>

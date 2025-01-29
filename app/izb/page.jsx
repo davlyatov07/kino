@@ -100,7 +100,7 @@ export default function WatchLaterPage() {
 								<p className='text-gray-400 mb-6'>
 									Вы уверены, что хотите очистить список Смотреть позже?
 								</p>
-								<div className='flex gap-48 '>
+								<div className='flex md:gap-48 gap-28 '>
 									<button
 										className='bg-red-600 px-4 py-2 rounded-lg text-white hover:bg-red-700'
 										onClick={() => {
